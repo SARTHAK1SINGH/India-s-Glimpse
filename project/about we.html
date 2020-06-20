@@ -1,0 +1,416 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 1600px;
+  margin: auto;
+  background-color: #555;
+  height: 45px;
+  color: white;
+  border-radius: 100px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 15px 19px;
+  text-decoration: underline;
+  font-size: 15px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display:block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
+.head{
+  background-color: rgba(1 ,12,200,.5);
+  color:rgba(1100,1200,2000,1);
+}
+</style>
+<div class="head">
+<h2><center><i> ABOUT US </i></center></h2>
+
+</div>
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">india's glimpse </a>
+  <div id="myLinks">
+    <a href="#news">home</a>
+    <a href="#contact">news</a>
+    <a href="#about">imges</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+ 
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+ <body>
+
+<h1>Google Map</h1><br>
+<img src="new.jpg" width="1500" height="600">
+
+ 
+
+ 
+
+ 
+-->
+
+</body>
+    
+ <div class="container">
+     </div> 
+        <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lightgrey;
+    padding: 0px;
+    font-family: oblique;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin-left: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -120px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: lightgrey;
+    padding: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.sun {
+    background-color: lightgrey;
+    padding: 5px;
+    margin-left: 40px;
+    cursor: text;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+ <style>
+ .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+img {
+  border-radius: 0%;
+}
+ 
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ 
+ 
+}</style>
+
+ <!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <div class="container">
+      <img src="tom1.jpg" alt="Mountains" style="width:300px" style="height:100px">
+     <div class="overlay">
+    <div class="text">SARTHAK SINGH</div>
+  </div>
+      </div>
+    </div>
+  </div> 
+    
+<br>hi,<br><center>  <div class="sun">
+<h3>  my name is tom , ihave experience of 7 years in guiding line.<br>
+  i am a guide of agra trained from dav national college.Trees are Nature’s bounty. Trees are of many different kinds. There are flowering trees, which bear blossoms, and non-flowering ones, which do not bloom into flowers. There are evergreen trees, which stay green through the year. There are also deciduous ones which may shed their leaves during a particular season annually making their branches turn bare. Trees make landscapes beautiful. Trees are invaluable to man and terrestrial life forms. Trees maintain ecological balance and equilibrium. Trees must be protected. The felling of trees must be prevented. Tree plantation activities must be encouraged to make our environment green, beautiful and healthy.
+
+
+ 
+You will find here below a number of long and short paragraph on Trees of varying word lengths. We hope these paragraphs on Trees will help students in completing their school assignments. These will also help children write and read out paragraphs in simple words and with small sentences. Students can select any paragraph on Trees according to their particular requirement.Trees are Nature’s bounty. Trees are of many different kinds. There are flowering trees, which bear blossoms, and non-flowering ones, which do not bloom into flowers. There are evergreen trees, which stay green through the year. There are also deciduous ones which may shed their leaves during a particular season annually making their branches turn bare.  </h3><br><br><br><br><br><br>
+
+
+ 
+</center>
+ 
+  <div class="column">
+    <div class="content">
+      <div class="container">
+      <img src="tom2.jpg" alt="Mountains" style="width:300px" style="height:100px">
+     <div class="overlay">
+    <div class="text">SUNDARAM dubey</div>
+  </div>
+      </div>
+    </div>
+  </div> 
+    
+<br>hi,<br><center>  <div class="sun">
+<h3>  my name is tom , ihave experience of 7 years in guiding line.<br>
+  i am a guide of agra trained from dav national college.Trees are Nature’s bounty. Trees are of many different kinds. There are flowering trees, which bear blossoms, and non-flowering ones, which do not bloom into flowers. There are evergreen trees, which stay green through the year. There are also deciduous ones which may shed their leaves during a particular season annually making their branches turn bare. Trees make landscapes beautiful. Trees are invaluable to man and terrestrial life forms. Trees maintain ecological balance and equilibrium. Trees must be protected. The felling of trees must be prevented. Tree plantation activities must be encouraged to make our environment green, beautiful and healthy.
+
+
+ 
+You will find here below a number of long and short paragraph on Trees of varying word lengths. We hope these paragraphs on Trees will help students in completing their school assignments. These will also help children write and read out paragraphs in simple words and with small sentences. Students can select any paragraph on Trees according to their particular requirement.Trees are Nature’s bounty. Trees are of many different kinds. There are flowering trees, which bear blossoms, and non-flowering ones, which do not bloom into flowers. There are evergreen trees, which stay green through the year. There are also deciduous ones which may shed their leaves during a particular season annually making their branches turn bare.  </h3>
+
+ 
+</center>  <div class="column">
+    <div class="content">
+      <div class="container">
+      <img src="tom3.jpg" alt="Mountains" style="width:300px" style="height:100px">
+     <div class="overlay">
+    <div class="text">varun</div>
+  </div>
+      </div>
+    </div>
+  </div> 
+     
+<br>hi,<br><center>  <div class="sun">
+<h3>  my name is tom , ihave experience of 7 years in guiding line.<br>
+  i am a guide of agra trained from dav national college.Trees are Nature’s bounty. Trees are of many different kinds. There are flowering trees, which bear blossoms, and non-flowering ones, which do not bloom into flowers. There are evergreen trees, which stay green through the year. There are also deciduous ones which may shed their leaves during a particular season annually making their branches turn bare. Trees make landscapes beautiful. Trees are invaluable to man and terrestrial life forms. Trees maintain ecological balance and equilibrium. Trees must be protected. The felling of trees must be prevented. Tree plantation activities must be encouraged to make our environment green, beautiful and healthy.
+
+
+ 
+You will find here below a number of long and short paragraph on Trees of varying word lengths. We hope these paragraphs on Trees will help students in completing their school assignments. These will also help children write and read out paragraphs in simple words and with small sentences. Students can select any paragraph on Trees according to their particular requirement.Trees are Nature’s bounty. Trees are of many different kinds. There are flowering trees, which bear blossoms, and non-flowering ones, which do not bloom into flowers. There are evergreen trees, which stay green through the year. There are also deciduous ones which may shed their leaves during a particular season annually making their branches turn bare.  </h3>
+
+ 
+</center>  <div class="column">
+    <div class="content">
+      <div class="container">
+      <img src="cruise.jpg" alt="Mountains" style="width:300px" style="height:100px">
+     <div class="overlay">
+    <div class="text">raj</div>
+  </div>
+      </div>
+    </div>
+  </div> 
+    <strong>my profile</strong>
+<br>hi,<br><center>  <div class="sun">
+<p>  my name is tom , ihave experience of 7 years in guiding line.<br>
+  i am a guide of agra trained from dav national college.Trees are Nature’s bounty. Trees are of many different kinds. There are flowering trees, which bear blossoms, and non-flowering ones, which do not bloom into flowers. There are evergreen trees, which stay green through the year. There are also deciduous ones which may shed their leaves during a particular season annually making their branches turn bare. Trees make landscapes beautiful. Trees are invaluable to man and terrestrial life forms. Trees maintain ecological balance and equilibrium. Trees must be protected. The felling of trees must be prevented. Tree plantation activities must be encouraged to make our environment green, beautiful and healthy.
+
+
+ 
+You will find here below a number of long and short paragraph on Trees of varying word lengths. We hope these paragraphs on Trees will help students in completing their school assignments. These will also help children write and read out paragraphs in simple words and with small sentences. Students can select any paragraph on Trees according to their particular requirement.Trees are Nature’s bounty. Trees are of many different kinds. There are flowering trees, which bear blossoms, and non-flowering ones, which do not bloom into flowers. There are evergreen trees, which stay green through the year. There are also deciduous ones which may shed their leaves during a particular season annually making their branches turn bare.  </p>
+
+ 
+</center>
+</div><style>
+.activa {
+  background-color: black;
+  color: white;
+}</style>
+<div class="activa">
+  <center>about us@2018-19</center>
+  <center>
+  <div class="column">
+   <div class="activa">  
+  <ul>guides</ul> 
+   <ul>places</ul>  <ul>materials</ul>  <ul>languages</ul>  <ul>medical facuility</ul> </div></div>
+
+  
+  <div class="column">
+   <div class="activa"> 
+  <ul>guides</ul> 
+   <ul>places</ul>  <ul>materials</ul>  <ul>languages</ul>  <ul>medical facuility</ul> </div></div>
+
+  
+  <div class="column">
+  <div class="activa">  
+  <ul>guides</ul> 
+   <ul>places</ul>  <ul>materials</ul>  <ul>languages</ul>  <ul>medical facuility</ul> </div></div></center>
+
+   <div class="column">
+  <div class="activa">  
+  <ul>guides</ul> 
+   <ul>places</ul>  <ul>materials</ul>  <ul>languages</ul>  <ul>medical facuility</ul> </div></div></center>
+
+</div>
+
+</body>
+</body></html>
