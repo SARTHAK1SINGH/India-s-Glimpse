@@ -9,3 +9,4 @@ This is a personal project. It is an idea of website for tourists with better in
 # the main page design: 
 
 
+![indianglimpsemainpage](https://user-images.githubusercontent.com/44469087/88172428-98b10c80-cc3e-11ea-9db7-d85c1ff888a4.png)
